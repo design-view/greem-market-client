@@ -1,0 +1,40 @@
+#upload-container {
+    .upload-name {
+        width: 300px;
+    }
+    > form > div {
+        display: flex;
+        align-items: center;
+        padding: 8px;
+        width :100%;
+        > div {
+            padding: 8px;
+            &:nth-child(2) {
+                flex: 1;
+            }
+        }
+        input {
+            padding: 8px;
+        }
+        textarea{
+            width: 100%;
+            height: 100px;
+        }
+        #submit-button {
+            padding: 8px;
+        }
+    }
+    #upload-img-placeholder {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: #eee;
+        >img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
